@@ -1,0 +1,76 @@
+@media (max-width: 375px) {
+    body {
+        background-color: black !important;
+    }
+    #qrCode {
+        width: 15rem !important;
+    }
+    img {
+        width: 13rem !important;
+    }
+}
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+main {
+    height: 99vh; 
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qrCode {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    box-shadow: 0px 45px 50px rgb(225, 225, 225);
+}
+
+img {
+    border-radius: 15px;
+    width: 18rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.font {
+    font-size: 15px;
+    font-family: Outfit;
+    text-align: center;
+    margin: 1rem 2rem 1rem;
+}
+
+#skill {
+    font-weight: 700;
+}
+
+#instruction {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: hsl(220, 15%, 55%)
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    position: sticky;
+    bottom: 1px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
